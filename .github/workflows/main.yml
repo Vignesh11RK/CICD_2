@@ -35,10 +35,3 @@ jobs:
 
       - name: Push Docker image
         run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/springboot-cicd:latest
-target/
-.git/
-.github/
-*.md
-*.log
-*.iml
-.idea/
